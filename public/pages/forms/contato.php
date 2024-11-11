@@ -20,6 +20,12 @@ $validate = validate([
 
 ]);
 
+
+
+
+
+
+
 $data = [
     'quem' => $validate['email'],      // Acessando os dados sanitizados
     'para' => 'felipecardoso1508@gmail.com',
